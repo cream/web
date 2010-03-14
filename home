@@ -3,6 +3,17 @@
 {% block content %}
 
     <h1>Welcome!</h1>
+
+    <div id="start_banners" style="width: 100%; margin-left: -4px;">
+        <table cellspacing="0" width="100%">
+            <tr>
+            <td align="left"><img src="/static/images/compose_banner.png" alt="compose your desktop" /></td>
+            <td align="center"><img src="/static/images/revamp_banner.png" alt="revamp gnome" /></td>
+            <td align="right"><img src="/static/images/make_banner.png" alt="$ make 'it yours'" /></td>
+            </tr>
+        </table>
+    </div>
+
     <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
     <p>
