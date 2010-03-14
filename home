@@ -1,0 +1,69 @@
+%% page
+
+{% block content %}
+
+    <h1>Welcome!</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+    <p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+    <p>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+    <p>
+
+{% endblock %}
+
+{% block sidebar %}
+
+
+
+
+<div id="identica">
+
+<h3>News</h3>
+
+<script type="text/javascript">
+
+function foo (data) {
+    for (var c = 0; c < data.length && c < 3; c++) {
+        var content = data[c]['text'];
+        content = content.replace(/http:\/\/([^ ]+)/g, "<a class=\"thin\" href=\"http://$1\" target=\"_laconica\">http://$1</a>");
+        content = content.replace(/@([\w*]+)/g, '@<a class=\"thin\" href="http://identi.ca/$1" target=\"_laconica\">$1</a>');
+        content = content.replace(/#([\w*]+)/g, '#<a class=\"thin\" href="http://identi.ca/tag/$1" target="_laconica">$1</a>');
+        content = content.replace(/!([\w*]+)/g, '!<a class=\"thin\" href="http://identi.ca/group/$1" target="_laconica">$1</a>');
+
+        box = document.createElement('div')
+        box.innerHTML = '<span style="font-size: .9em; font-style: italic;">' + content + '</span><br /><span style="font-size: .8em; color: #999;">- ' + data[c]['user']['screen_name'] + ' at ' + data[c]['created_at'].split(/\+/)[0] + '</span>';
+
+        if (c != 0) {
+            box.style.paddingTop = "10px";
+        }
+
+        document.getElementById('identica').appendChild(box)
+    }  
+}
+
+var head = document.getElementsByTagName("head")[0];
+script = document.createElement('script');
+script.id = 'data';
+script.type = 'text/javascript';
+script.src = "https://identi.ca/api/statusnet/groups/timeline/cream.json?callback=foo";
+head.appendChild(script);
+
+</script>
+
+</div>
+
+<h3>Related Projects</h3>
+
+    <a href="http://linux-hotel.de">
+        <img src="/static/images/linuxhotel.png" />
+    </a>
+    <a href="http://python.org">
+        <img src="/static/images/pythonpowered.png" />
+    </a>
+
+
+{% endblock %}
