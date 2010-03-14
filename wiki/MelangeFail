@@ -1,0 +1,27 @@
+%% wiki
+
+Getting Melange to FAIL
+=======================
+
+How to Reproduce
+----------------
+
+1. Start Melange.
+2. Add one of the following widgets with Melange-Control:
+    - Example Widget
+    - Paste Widget
+3. Play around with the widget.
+4. Remove the widget while using it (e. g. uploading a paste).
+
+With a bit of luck Melange will die.
+
+Suggestions
+-----------
+
+- The JSContext gets destroyed and freed before the last actions has completed (threads!).
+
+Possible Solutions?
+-------------------
+
+- Check context before using it. If it is not available raise a Python exception.
+- Don't destroy the context. (Oh, really?)
