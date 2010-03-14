@@ -1,0 +1,64 @@
+%% wiki
+
+Installing from Git
+===================
+
+Dependencies
+------------
+
+To install the required packages, please do:
+
+.. code-block:: bash
+
+ $ sudo apt-get install python-json # Ubuntu
+ $ sudo pacman -S python-json # Arch Linux
+ $ emerge python-json # Gentoo
+
+Additionally you have to install the packages ``python-bottle`` and ``pyglet``. You also need webkit and PyWebKitGtk.
+
+Install Git
+-----------
+
+You should install *git* first. You can do this by installing the package ``git``:
+
+.. code-block:: bash
+
+ $ sudo apt-get install git-core # Ubuntu
+ $ sudo pacman -S git # Arch Linux
+ $ emerge git # Gentoo
+
+Download the Code
+-----------------
+
+Create a directory for cream:
+
+.. code-block:: bash
+
+ $ mkdir Cream
+ $ cd Cream
+
+Create the base repository:
+
+.. code-block:: bash
+
+ $ git clone git://github.com/cream/cream .
+
+Updating the whole tree
+-----------------------
+
+If you want to update the whole tree just do:
+
+.. code-block:: bash
+
+ $ git submodule update --init --recursive
+
+Configure libraries
+-------------------
+
+Just add ``$YOUR_CREAM_FOLDER/dev/src/libs/`` to your ``$PYTHONPATH``, where ``$YOUR_CREAM_FOLDER`` is the folder you have cream living in.
+
+.. code-block:: bash
+
+ export PYTHONPATH=$YOUR_CREAM_FOLDER/src/libs/:$PYTHONPATH
+
+You can add this line to your ``~/.bashrc``!
