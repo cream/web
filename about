@@ -27,3 +27,13 @@ Cream's most essential philosophy is that every user - being a complete »newbie
 <h2>Melange</h2>
 
 {% endblock %}
+
+
+{% block content %}
+
+<h4>Further information:</h4>
+<ul>
+    <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
+</ul>
+
+{% endblock %}
