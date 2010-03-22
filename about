@@ -72,7 +72,7 @@
 .il { color: #208050 } /* Literal.Number.Integer.Long */
 </style>
 
-<h1>What is Cream?</h1>
+<h1>About Cream</h1>
 
 Cream is a project working on a new GTK+-based Desktop Environment and the underlaying framework in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for new and advanced users.
 
@@ -99,9 +99,13 @@ As already mentioned above, we provide a simple framework for developing own mod
 </pre></div>
 </div>
 
-<h1>Modules - Foundations of your Desktop Shell</h1>
-
 <h2>Melange</h2>
+
+Melange is - at least for the moment - our most interesting and fastest evolving module and represents an important piece in the puzzle of Cream's Desktop Shell. It serves as our widget system and could be compared with Screenlets or Plasma.
+
+With Melange we provide users with mordern and useful widgets based on technologies around the WebKit project. Great performance, a small memory footprint (Only about 30% of the memory used by Screenlets!) and overwhelming visual presentation are just some of the arguments for using Melange.
+
+Developing an own widget is as simple as writing an own module. You can use simple web technologies like HTML, JavaScript and CSS to design you user interface while utilizing the whole power of Python for collecting and processing data.
 
 {% endblock %}
 
