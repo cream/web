@@ -16,13 +16,16 @@ Cream is a project working on a new GTK+-based Desktop Environment and the under
 
 <h2>Compose your Desktop</h2>
 
-Cream's most essential philosophy is that every user - being a complete »newbie« or an advanced one - should be encouraged and enabled to compile his own »made to measure« Desktop Shell.
+Cream's most essential philosophy is that every user - being a complete »newbie« or an advanced one - should be encouraged and enabled to compile his own »made to measure« Desktop Shell. We reach this goal by modularizing everything we do: Services are modules. Application are modules. It
+s that simple. You can decide what to install and use!
 
 <h3>Revamp GNOME</h3>
 
+We all love GNOME, don't we? So why should we break up with that great project and live our lives in separation? In fact, both projects have most of their foundation in common. GTK+, Cairo, Python are WebKit just the most important cornerstones. There is absolutely no reason to prevent you from running parts of Cream - or even the whole Shell - besides your GNOME Desktop. Actually, most of us do so.
+
 <h2>Extend your Desktop</h2>
 
-<h1>Modules - Foundations of you Desktop Shell</h1>
+<h1>Modules - Foundations of your Desktop Shell</h1>
 
 <h2>Melange</h2>
 
