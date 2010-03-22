@@ -101,11 +101,11 @@ As already mentioned above, we provide a simple framework for developing own mod
 
 <h2>Melange</h2>
 
-Melange is - at least for the moment - our most interesting and fastest evolving module and represents an important piece in the puzzle of Cream's Desktop Shell. It serves as our widget system and could be compared with Screenlets or Plasma.
+<p>Melange is - at least for the moment - our most interesting and fastest evolving module and represents an important piece in the puzzle of Cream's Desktop Shell. It serves as our widget system and could be compared with Screenlets or Plasma.</p>
 
-With Melange we provide users with mordern and useful widgets based on technologies around the WebKit project. Great performance, a small memory footprint (Only about 30% of the memory used by Screenlets!) and overwhelming visual presentation are just some of the arguments for using Melange.
+<p>With Melange we provide users with mordern and useful widgets based on technologies around the WebKit project. Great performance, a small memory footprint (Only about 30% of the memory used by Screenlets!) and overwhelming visual presentation are just some of the arguments for using Melange.</p>
 
-Developing an own widget is as simple as writing an own module. You can use simple web technologies like HTML, JavaScript and CSS to design you user interface while utilizing the whole power of Python for collecting and processing data.
+<p>Developing an own widget is as simple as writing an own module. You can use simple web technologies like HTML, JavaScript and CSS to design you user interface while utilizing the whole power of Python for collecting and processing data.</p>
 
 {% endblock %}
 
