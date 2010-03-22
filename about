@@ -1,0 +1,15 @@
+%% page
+
+{% block content %}
+
+<h2>What is Cream?</h2>
+
+<h3>Compose your Desktop</h3>
+
+<h3>Develop your own Modules</h3>
+
+<h2>Modules - Foundations of you Desktop Shell</h2>
+
+<h3>Melange</h3>
+
+{% endblock %}
