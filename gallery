@@ -71,6 +71,9 @@
 
 {% block sidebar %}
 
-These images where taken on different Linux Distributions with different Cream compilations. If you have any questions regarding those images, feel free to contact us!
+<h4>Further information:</h4>
+<ul>
+    <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
+</ul>
 
 {% endblock %}
