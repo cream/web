@@ -1,5 +1,9 @@
 %% page
 
+{% block styles %}
+<link href="/static/styles/pygments.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
 {% block content %}
 
 <style type="text/css">
@@ -21,9 +25,19 @@ s that simple. You can decide what to install and use!
 
 <h3>Revamp GNOME</h3>
 
-We all love GNOME, don't we? So why should we break up with that great project and live our lives in separation? In fact, both projects have most of their foundation in common. GTK+, Cairo, Python are WebKit just the most important cornerstones. There is absolutely no reason to prevent you from running parts of Cream - or even the whole Shell - besides your GNOME Desktop. Actually, most of us core developers are enjoying the synergy of that solution.
+We all love GNOME, don't we? So why should we break up with that great project and live our lives in separation? In fact, both projects have most of their foundation in common. GTK+, Cairo, Python are WebKit just the most important cornerstones. There is absolutely no reason to prevent you from running parts of Cream - or even the whole Shell - besides your GNOME Desktop. Actually, most of us core developers are enjoying the synergy of this solution.
 
 <h2>Extend your Desktop</h2>
+
+As already mentioned above, we provide a simple framework for developing own modules and extending existing services and applications. Hm. You really want to know <span style="font-style: italic;">how</span> easy it is to write an application with e. g. a built-in configuration system including a user friendly settings dialog, the possibility to make use of global hotkeys and other great and easy to use features? Ok. You asked for it:
+
+<div class="syntax"><pre><span class="k">class</span> <span class="nc">MyModule</span><span class="p">(</span><span class="n">cream</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span> 
+ 
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> 
+ 
+        <span class="n">cream</span><span class="o">.</span><span class="n">Module</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">features</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;hotkeys&#39;</span><span class="p">])</span> 
+        <span class="k">print</span> <span class="s">&quot;Hello World!&quot;</span> 
+</pre></div>
 
 <h1>Modules - Foundations of your Desktop Shell</h1>
 
