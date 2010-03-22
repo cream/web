@@ -2,14 +2,14 @@
 
 {% block content %}
 
-<h2>What is Cream?</h2>
+<h1>What is Cream?</h1>
 
-<h3>Compose your Desktop</h3>
+<h2>Compose your Desktop</h2>
 
-<h3>Develop your own Modules</h3>
+<h2>Extend your Desktop</h2>
 
-<h2>Modules - Foundations of you Desktop Shell</h2>
+<h1>Modules - Foundations of you Desktop Shell</h1>
 
-<h3>Melange</h3>
+<h2>Melange</h2>
 
 {% endblock %}
