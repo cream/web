@@ -54,9 +54,7 @@
 <h1>Gallery</h1>
 
 <div class="thumbnail">
-    <a href="http://www.huddletogether.com/projects/lightbox2/images/image-1.jpg" rel="lightbox">
-        <img src="http://www.huddletogether.com/projects/lightbox2/images/thumb-1.jpg" width="100" height="40" alt="" />
-    </a>
+<a href="http://www.huddletogether.com/projects/lightbox2/images/image-1.jpg" rel="lightbox"><img src="http://www.huddletogether.com/projects/lightbox2/images/thumb-1.jpg" width="100" height="40" alt="" /></a>
 </div>
 
 {% endblock %}
