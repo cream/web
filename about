@@ -89,7 +89,7 @@ We all love GNOME, don't we? So why should we break up with that great project a
 
 As already mentioned above, we provide a simple framework for developing own modules and extending existing services and applications. Hm. You really want to know <span style="font-style: italic;">how</span> easy it is to write an application with e. g. a built-in configuration system including a user friendly settings dialog, the possibility to make use of global hotkeys and other great and easy to use features? Ok. You asked for it:
 
-<div style="border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; background-color: #eeeeee; margin: 15px;">
+<div style="border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; background-color: #eeeeee; padding: 15px;">
 <div class="syntax"><pre><span class="k">class</span> <span class="nc">MyModule</span><span class="p">(</span><span class="n">cream</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span> 
  
     <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span> 
