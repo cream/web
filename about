@@ -29,7 +29,7 @@ Cream's most essential philosophy is that every user - being a complete »newbie
 {% endblock %}
 
 
-{% block content %}
+{% block sidebar %}
 
 <h4>Further information:</h4>
 <ul>
