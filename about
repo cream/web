@@ -1,7 +1,5 @@
 %% page
 
-<link href="/static/styles/pygments.css" rel="stylesheet" type="text/css">
-
 {% block content %}
 
 <style type="text/css">
