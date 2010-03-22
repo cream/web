@@ -1,8 +1,6 @@
 %% page
 
-{% block styles %}
 <link href="/static/styles/pygments.css" rel="stylesheet" type="text/css">
-{% endblock %}
 
 {% block content %}
 
