@@ -1,0 +1,31 @@
+%%wiki
+
+Getting started with Cream
+==========================
+
+After `installing Cream from git`_, you can begin to use the different parts of Cream.
+
+Melange
+-------
+
+Starting Melange
+++++++++++++++++
+
+To start Melange, just *cd* into the ``src/modules/melange`` directory and run ``melange.py``. $YOUR_CREAM_FOLDER is the folder you have cream living in.
+
+.. code-block:: bash
+
+  $ cd $YOUR_CREAM_FOLDER/src/modules/melange
+  $ python melange.py
+
+Adding widgets
+++++++++++++++
+
+Now, let's add some widgets. To do so, you have to start *Melange Control* which is in the ``src/modules/melange-control`` directory:
+
+.. code-block:: bash
+
+  $ cd $YOUR_CREAM_FOLDER/src/modules/melange-control
+  $ python melange-control.py
+
+.. _installing Cream from git: /wiki/InstallFromGit
