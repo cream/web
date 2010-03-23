@@ -1,6 +1,29 @@
 %% page
 
 {% block content %}
+    
+    <style type="text/css">
+        div.getting_started {
+            background: #f8f8f8;
+            border: #efefef;
+            
+            border-radius: 4px;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+
+            box-shadow: 0px 0px 10px #ececec;
+            -moz-box-shadow: 0px 0px 10px #ececec;
+            -webkit-box-shadow: 0px 0px 10px #ececec;
+        }
+
+        div.getting_started ul#first_steps li {
+            line-height: 15px;
+        }
+
+            div.getting_started ul#first_steps li:hover {
+                text-shadow: 0px 0px 4px #f3f3f3;
+            }
+    </style>
 
     <h1>Welcome!</h1>
 
@@ -20,7 +43,7 @@
     </p>
 
     <div class="getting_started">
-        <ul>
+        <ul id="first_steps">
             <li><a href="/about">About</a></li>
             <li><a href="/wiki/releases/DeveloperPreview">Install the developer preview</a></li>
             <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
