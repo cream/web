@@ -17,7 +17,8 @@
         }
 
         div.getting_started ul#first_steps li {
-            line-height: 15px;
+            padding-top: 2px;
+            padding-bottom: 2px;
         }
 
             div.getting_started ul#first_steps li:hover {
@@ -41,15 +42,19 @@
         Welcome on Cream's homepage! Here are some links that might be interesting for you to learn more
         about the project and how to get started.
     </p>
-
+    
+    <br />
+    
     <div class="getting_started">
         <ul id="first_steps">
             <li><a href="/about">About</a></li>
-            <li><a href="/wiki/releases/DeveloperPreview">Install the developer preview</a></li>
+            <li><a href="/wiki/releases/FirstDeveloperPreview">Install the developer preview</a></li>
             <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
             <li><a href="/wiki/GettingStarted">Getting started</a></li>
         </ul>
     </div>
+    
+    <br />
 
 {% endblock %}
 
