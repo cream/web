@@ -66,56 +66,56 @@
 <h1>Gallery</h1>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/6PCKd-cream-overview.png" rel="lightbox"><img src="http://droppy.lophus.org/6PCKd-cream-overview.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/6PCKd-cream-overview.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/6PCKd-cream-overview.png" alt="" /></a>
     <div class="title">
         Overview of Melange.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/PsoI4-cream-windows.png" rel="lightbox"><img src="http://droppy.lophus.org/PsoI4-cream-windows.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/PsoI4-cream-windows.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/PsoI4-cream-windows.png" alt="" /></a>
     <div class="title">
         Windows overlapping the widgets.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" rel="lightbox"><img src="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" alt="" /></a>
     <div class="title">
         Melange Overlay overlapping the windows.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/hlc8q-cream-widgets.png" rel="lightbox"><img src="http://droppy.lophus.org/hlc8q-cream-widgets.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/hlc8q-cream-widgets.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/hlc8q-cream-widgets.png" alt="" /></a>
     <div class="title">
         Some other widgets.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/v7pBK-cream-identica.png" rel="lightbox"><img src="http://droppy.lophus.org/v7pBK-cream-identica.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/v7pBK-cream-identica.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/v7pBK-cream-identica.png" alt="" /></a>
     <div class="title">
         Identi.ca widget with sleek scroll handle.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" rel="lightbox"><img src="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" alt="" /></a>
     <div class="title">
         Adding a Config profile.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/7RWQV-cream-hotkey.png" rel="lightbox"><img src="http://droppy.lophus.org/7RWQV-cream-hotkey.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/7RWQV-cream-hotkey.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/7RWQV-cream-hotkey.png" alt="" /></a>
     <div class="title">
         Changing the hotkey for the overlay.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/XYAw3-cream-about.png" rel="lightbox"><img src="http://droppy.lophus.org/XYAw3-cream-about.png" alt="" /></a>
+    <a href="http://droppy.lophus.org/XYAw3-cream-about.png" rel="lightbox[melange]"><img src="http://droppy.lophus.org/XYAw3-cream-about.png" alt="" /></a>
     <div class="title">
         About dialogs.
     </div>
