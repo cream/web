@@ -7,9 +7,9 @@
     <div id="start_banners" style="width: 100%; margin-left: -4px;">
         <table cellspacing="0" width="100%">
             <tr>
-            <td align="left"><img src="/static/images/compose_banner.png" alt="compose your desktop" /></td>
-            <td align="center"><img src="/static/images/revamp_banner.png" alt="revamp gnome" /></td>
-            <td align="right"><img src="/static/images/make_banner.png" alt="$ make 'it yours'" /></td>
+            <td align="left"><a href="/about#compose"><img src="/static/images/compose_banner.png" alt="compose your desktop" /></a></td>
+            <td align="center"><a href="/about#revamp"><img src="/static/images/revamp_banner.png" alt="revamp gnome" /></a></td>
+            <td align="right"><a href="/about#extend"><img src="/static/images/make_banner.png" alt="$ make 'it yours'" /></a></td>
             </tr>
         </table>
     </div>
