@@ -11,7 +11,8 @@ To install the required packages, please do:
 .. code-block:: bash
 
  # Ubuntu
- $ sudo apt-get install python-json python-pyglet python-lxml python-webkit python-setuptools && sudo easy_install bottle
+ $ sudo apt-get install python-json python-pyglet python-lxml python-webkit python-setuptools
+ $ sudo easy_install bottle
 
  # Arch Linux
  $ sudo pacman -S pyglet pywebkit setuptools && sudo easy_install bottle
@@ -24,16 +25,16 @@ Additionally you have to install the following packages:
 Ubuntu
 ++++++
 
- - `webkit <http://example.com>`_
- - `libsoup2.4-1 <http://example.com>`_ >= 2.29.5
- - `pyjavscriptcore <http://example.com>`_
+- `webkit >= 1.1.22 <http://freespeed.org/9UwR0-webkit_1.1.22-1_i386.deb>`_
+- `libsoup2.4-1 >= 2.29.5 <http://droppy.lophus.org/OmqJl-libsoup2.4-1_2.29.91-1_i386.deb>`_
+- `pyjavscriptcore <http://droppy.lophus.org/ho2Y7-pyjavascriptcore_0.0003-1_i386.deb>`_
 
 Arch Linux (from AUR)
 +++++++++++++++++++++
 
- - `libwebkkit-newest <http://example.com>`_
- - `libsoup-git <http://example.com>`_
- - `pyjavascriptcore <http://example.com>`_
+- `libwebkkit-newest <http://aur.archlinux.org/packages.php?ID=34973>`_
+- `libsoup-git <http://aur.archlinux.org/packages.php?ID=28373>`_
+- `pyjavascriptcore <http://aur.archlinux.org/packages.php?ID=34295>`_
 
 Install Git
 -----------
