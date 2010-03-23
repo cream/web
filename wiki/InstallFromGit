@@ -10,11 +10,30 @@ To install the required packages, please do:
 
 .. code-block:: bash
 
- $ sudo apt-get install python-json # Ubuntu
- $ sudo pacman -S python-json # Arch Linux
+ # Ubuntu
+ $ sudo apt-get install python-json python-pyglet python-lxml python-webkit python-setuptools && sudo easy_install bottle
+
+ # Arch Linux
+ $ sudo pacman -S pyglet pywebkit setuptools && sudo easy_install bottle
+
+ # Gentoo
  $ emerge python-json # Gentoo
 
-Additionally you have to install the packages ``python-bottle`` and ``pyglet``. You also need webkit and PyWebKitGtk.
+Additionally you have to install the following packages:
+
+Ubuntu
+++++++
+
+ - `webkit <http://example.com>`_
+ - `libsoup2.4-1 <http://example.com>`_ >= 2.29.5
+ - `pyjavscriptcore <http://example.com>`_
+
+Arch Linux (from AUR)
++++++++++++++++++++++
+
+ - `libwebkkit-newest <http://example.com>`_
+ - `libsoup-git <http://example.com>`_
+ - `pyjavascriptcore <http://example.com>`_
 
 Install Git
 -----------
@@ -23,9 +42,14 @@ You should install *git* first. You can do this by installing the package ``git`
 
 .. code-block:: bash
 
- $ sudo apt-get install git-core # Ubuntu
- $ sudo pacman -S git # Arch Linux
- $ emerge git # Gentoo
+ # Ubuntu
+ $ sudo apt-get install git-core
+
+ # Arch Linux
+ $ sudo pacman -S git
+
+ # Gentoo
+ $ emerge git
 
 Download the Code
 -----------------
