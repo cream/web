@@ -4,18 +4,19 @@ mkdir thumbnails
 
 for i in "$@"; do
 
-if [ $i == thumb-* ]; then
+if [ $i == thumb* ]; then
     echo "Skipping $i..."
 else
     echo "Processing $i..."
     convert $i \
         -thumbnail 120x120 \
-        -bordercolor white  -border 6 \
+        -bordercolor white  -border 4 \
         -bordercolor grey60 -border 1 \
-        -background  none   -rotate 6 \
         -background  black  \( +clone -shadow 60x4+4+4 \) +swap \
         -background  none   -flatten \
         thumbnails/thumb-120x120-$i
+
+#-background  none   -rotate 1 \
 fi
 
 done
