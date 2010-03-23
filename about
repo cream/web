@@ -52,7 +52,9 @@ As already mentioned above, we provide a simple framework for developing own mod
 
 <h4>Further information:</h4>
 <ul>
+    <li><a href="/wiki/releases/FirstDeveloperPreview">Install developer preview</a></li>
     <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
+    <li><a href="/wiki/GettingStarted">Get started</a></li>
 </ul>
 
 {% endblock %}

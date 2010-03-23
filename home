@@ -64,21 +64,6 @@
 
 {% block sidebar %}
 
-<div style="text-align: center;">
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="CDF7CG2EVHPSA">
-    <input type="image" src="http://cream-project.org/static/images/donate-normal.png" 
-           onmouseup="this.src='http://cream-project.org/static/images/donate-hover.png';"
-           onmousedown="this.src='http://cream-project.org/static/images/donate-pressed.png';"
-           onmouseout="this.src='http://cream-project.org/static/images/donate-normal.png';"
-           onmouseover="this.src='http://cream-project.org/static/images/donate-hover.png';" 
-    border="0">
-    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-    </form>
-</div>
-
-
 <div id="identica">
 
 <h3>News</h3>
@@ -113,6 +98,20 @@ head.appendChild(script);
 
 </script>
 
+</div>
+
+<div style="text-align: center;">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="CDF7CG2EVHPSA">
+    <input type="image" src="http://cream-project.org/static/images/donate-normal.png" 
+           onmouseup="this.src='http://cream-project.org/static/images/donate-hover.png';"
+           onmousedown="this.src='http://cream-project.org/static/images/donate-pressed.png';"
+           onmouseout="this.src='http://cream-project.org/static/images/donate-normal.png';"
+           onmouseover="this.src='http://cream-project.org/static/images/donate-hover.png';" 
+    border="0">
+    <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+    </form>
 </div>
 
 <h3>Related Projects</h3>
