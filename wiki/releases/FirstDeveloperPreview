@@ -3,4 +3,30 @@
 First developer preview of Cream
 ================================
 
-Foo.
+On March, -23- 24 2010 we released our first experimental developer preview of Cream for anyone who is interested, so that you can get an insight of how great Cream's potential is.
+
+There are two ways to install it:
+
+1. Follow the instructions in `Install from Git`_
+2. Use our Cream install script for Ubuntu as described in the following paragraph
+
+In case of Ubuntu you'll need 9.10 (karmic) or higher.
+
+Cream Ubuntu Installer
+----------------------
+
+Just go through the following steps:
+
+1. Download the package here: `Ubuntu Installer`_
+2. Navigate into the folder ``prealpha-1``
+3. Double-click on ``setup-ubuntu``
+4. Choose the button *Run*
+5. Wait until the installation has finished. Then click *OK*
+
+Now Cream is installed. To start the widget system *Melange*, double-click on ``melange`` and choose the button *Run*. To add widgets you need to start *Melange Control* by double-clicking on ``melange-control`` and - again  - choosing the *Run* button.
+
+For further instructions how to use *Melange* take a look at our `Getting started`_ page. 
+
+.. _Install from Git: /wiki/InstallFromGit
+.. _Ubuntu Installer: http://droppy.freespeed.org/tAnQj-cream-desktop-devpreview.tar.gz
+.. _Getting started: /wiki/GettingStarted
