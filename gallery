@@ -55,10 +55,11 @@
 
 .thumbnail .title {
     color: #555555;
-    font-size: .9em;
+    font-size: .8em;
     }
 
 .thumbnail img {
+    border: 1px solid #dddddd;
     height: 120px;
     }
 
@@ -81,14 +82,14 @@
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" rel="lightbox"><img src="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" rel="lightbox"><img src="http://droppy.lophus.org/XqRZG-cream-windows-overlay.png" alt="" /></a>
     <div class="title">
         Melange Overlay<br />overlapping the windows.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/hlc8q-cream-widgets.png" rel="lightbox"><img src="http://droppy.lophus.org/hlc8q-cream-widgets.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/hlc8q-cream-widgets.png" rel="lightbox"><img src="http://droppy.lophus.org/hlc8q-cream-widgets.png" alt="" /></a>
     <div class="title">
         Some other widgets.
     </div>
@@ -102,21 +103,21 @@
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" rel="lightbox"><img src="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" rel="lightbox"><img src="http://droppy.lophus.org/Zp4Kg-cream-add-profile.png" alt="" /></a>
     <div class="title">
         Adding a Config profile.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/7RWQV-cream-hotkey.png" rel="lightbox"><img src="http://droppy.lophus.org/7RWQV-cream-hotkey.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/7RWQV-cream-hotkey.png" rel="lightbox"><img src="http://droppy.lophus.org/7RWQV-cream-hotkey.png" alt="" /></a>
     <div class="title">
         Changing the hotkey<br />for the overlay.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/XYAw3-cream-about.png" rel="lightbox"><img src="http://droppy.lophus.org/XYAw3-cream-about.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/XYAw3-cream-about.png" rel="lightbox"><img src="http://droppy.lophus.org/XYAw3-cream-about.png" alt="" /></a>
     <div class="title">
         About dialogs.
     </div>
