@@ -59,7 +59,7 @@
     }
 
 .thumbnail a {
-    height: 80%;
+    height: 120px;
     }
 
 </style>
@@ -74,7 +74,7 @@
 </div>
 
 <div class="thumbnail">
-    <a href="http://droppy.lophus.org/PsoI4-cream-windows.png" rel="lightbox"><img src="http://droppy.lophus.org/PsoI4-cream-windows.png" width="100" height="75" alt="" /></a>
+    <a href="http://droppy.lophus.org/PsoI4-cream-windows.png" rel="lightbox"><img src="http://droppy.lophus.org/PsoI4-cream-windows.png" alt="" /></a>
     <div class="title">
         Windows overlapping<br />the widgets.
     </div>
