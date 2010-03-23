@@ -4,8 +4,10 @@
     
     <style type="text/css">
         div.getting_started {
+            padding: 5px;
+
             background: #f8f8f8;
-            border: #efefef;
+            border: 1px solid #efefef;
             
             border-radius: 4px;
             -moz-border-radius: 4px;
@@ -17,8 +19,8 @@
         }
 
         div.getting_started ul#first_steps li {
-            padding-top: 2px;
-            padding-bottom: 2px;
+            padding-top: 4px;
+            padding-bottom: 4px;
         }
 
             div.getting_started ul#first_steps li:hover {
