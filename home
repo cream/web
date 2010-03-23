@@ -4,7 +4,7 @@
     
     <style type="text/css">
         div.getting_started {
-            padding: 5px;
+            padding: 4px;
 
             background: #f8f8f8;
             border: 1px solid #efefef;
@@ -40,13 +40,15 @@
         </table>
     </div>
 
+    <h2>What is Cream?</h2>
     <p>
-        Welcome on Cream's homepage! Here are some links that might be interesting for you to learn more
-        about the project and how to get started.
+    Cream is a project working on a new GTK+-based Desktop Environment in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for new and advanced user.
     </p>
-    
-    <br />
-    
+
+    <h2>Get started!<h2>
+    <p>
+    Here are some links that might be interesting for you to learn more about the project and how to get started with Cream.
+    </p>
     <div class="getting_started">
         <ul id="first_steps">
             <li><a href="/about">About</a></li>
