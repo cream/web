@@ -45,7 +45,7 @@
     Cream is a project working on a new GTK+-based Desktop Environment in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for new and advanced user.
     </p>
 
-    <h2>Get started!<h2>
+    <h2>Get started!</h2>
     <p>
     Here are some links that might be interesting for you to learn more about the project and how to get started with Cream.
     </p>
@@ -98,7 +98,7 @@ head.appendChild(script);
 
 </script>
 
-</div>
+</div><br />
 
 <div style="text-align: center;">
     <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
