@@ -1,32 +1,29 @@
 %%wiki
 
-First developer preview of Cream
-================================
+First Developer Preview
+=======================
 
-On March, 24 2010 we released our first experimental developer preview of Cream for anyone who is interested, so that you can get an insight of how great Cream's potential is.
+This is our first experimental developer preview. We provide you with this simplier way of testing Cream that you can help us by giving feedback.
 
-There are two ways to install it:
+There are two ways to install this Developer Preview:
 
-1. Follow the instructions in `Install from Git`_
-2. Use our Cream install script for Ubuntu as described in the following paragraph
-
-In case of Ubuntu you'll need 9.10 (karmic) or higher.
+1. `Install Cream from Git`_
+2. Follow the instructions below (Ubuntu 9.10 or higher!)
 
 Cream Ubuntu Installer
 ----------------------
 
 Just go through the following steps:
 
-1. Download the package here: `Ubuntu Installer`_
-2. Navigate into the folder ``prealpha-1``
-3. Double-click on ``setup-ubuntu``
-4. Choose the button *Run*
-5. Wait until the installation has finished. Then click *OK*
+1. Download the package: `Ubuntu Installer`_
+2. Change your working directory to ``prealpha-1``
+3. Run ``setup-ubuntu`` in oder to setup the snapshot.
+5. Wait until the installation has finished. Then click *OK*.
 
-Now Cream is installed. To start the widget system *Melange*, double-click on ``melange`` and choose the button *Run*. To add widgets you need to start *Melange Control* by double-clicking on ``melange-control`` and - again  - choosing the *Run* button.
+You can use our widget system Melange by running the scripts ``melange`` and ``melange-control`` (in that order).
 
-For further instructions how to use *Melange* take a look at our `Getting started`_ page. 
+Please refer to the `Getting started`_ page for more information.
 
-.. _Install from Git: /wiki/InstallFromGit
+.. _Install Cream from Git: /wiki/InstallFromGit
 .. _Ubuntu Installer: http://droppy.freespeed.org/tAnQj-cream-desktop-devpreview.tar.gz
 .. _Getting started: /wiki/GettingStarted
