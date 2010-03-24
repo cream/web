@@ -17,9 +17,6 @@ To install the required packages, please do:
  # Arch Linux
  $ sudo pacman -S pyglet pywebkit setuptools && sudo easy_install bottle
 
- # Gentoo
- $ emerge python-json # Gentoo
-
 Additionally you have to install the following packages:
 
 Ubuntu
