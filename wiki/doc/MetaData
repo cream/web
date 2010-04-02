@@ -21,9 +21,11 @@ A human-readable name for the object.
 id
 ~~
 
-A short identification string for the object in reversed domain style.
+A short identification string for the object in reversed domain style. While we (the official team members) use the ``org.cream.*`` namespace, you should use something like ``com.apple.fancyinvention™`` (Note: You cannot use "™" within the ID!).
 
-Example:: xml
+Example:
+
+.. code-block:: xml
 
   <id>org.cream.foo</id>
 
