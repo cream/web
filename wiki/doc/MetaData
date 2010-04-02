@@ -11,7 +11,7 @@ Meta data is being stored in simple XML-files called `meta.xml`.
 In the following the term *object* will be used for the module, widget, whatsoever, etc. being described by the meta data.
 
 Required Entries
-----------------
+^^^^^^^^^^^^^^^^
 
 name
   A human-readable name for the object.
@@ -19,3 +19,34 @@ name
 id
   A short identification string for the object in reversed domain style.
   Examples: ``org.cream.melange``, ``com.apple.coolinvention™`` (Note: "™" can't really be used within ids!)
+
+type
+  The type of the object.
+  Examples: ``org.cream.module``, ``org.cream.melange.skin``, ``com.apple.coolinvention™.proprietarytype``
+
+license
+  The license(s) being used for this object.
+
+version
+  The version of the object.
+
+author
+  The name of the author.
+
+mail
+  The mail address of the author.
+
+Optional Entries
+^^^^^^^^^^^^^^^^
+
+General
+~~~~~~~
+
+icon
+  TBA
+
+homepage
+  TBA
+
+parent
+  TBD
