@@ -38,7 +38,7 @@ General
 
 depends
   A list of ``module``-nodes containing the ID of required modules.
-  Example: ..code-block:: xml
+  ..code-block:: xml
     <depends>
         <module>org.cream.keyring</module>
         <module required="false">org.cream.hotkeys</module>
