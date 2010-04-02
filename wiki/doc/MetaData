@@ -18,6 +18,12 @@ name
 
 A human-readable name for the object.
 
+Example:
+
+.. code-block:: xml
+
+  <name>Foo</name>
+
 id
 ~~
 
@@ -41,44 +47,89 @@ Example:
   <type>org.cream.module</type>
 
 license
-  The license(s) being used for this object.
+~~~~~~~
+
+The license(s) being used for this object.
+
+Example:
+
+.. code-block:: xml
+
+  <license>GPL,BSD</license>
 
 version
-  The version of the object.
+~~~~~~~
+
+The version of the object.
+
+Example:
+
+.. code-block:: xml
+
+  <version>0.1.4</version>
 
 Optional Entries
 ^^^^^^^^^^^^^^^^
 
-General
-~~~~~~~
-
-depends
-  A list of ``module``-nodes containing the ID of required modules.
+The following entries are being used in some cases. You can also use your own optional entries in ``meta.xml``-files if there is no conflict to the entries mentioned above and below!
 
 icon
-  (Relative) path to an icon for the object.
+~~~~
 
-contributors
-  The names of contributing people.
-  Example: ``"Jon Doe <jon@domain.tld>, Max Mustermann``
+(Relative) path to an image containing the icon for the object. This image should be a scalable graphic or have at least a resolution of 128x128px.
 
-homepage
-  Homepage of the object.
+Example:
 
-parent
-  This can be used to specify relations between objects. Especially used with Melange.
-  Example: ``org.cream.paste_widget.default`` has ``org.cream.paste_widget`` as it's parent.
+.. code-block:: xml
 
-Modules
+  <icon>foo.svg</icon>
+
+authors
 ~~~~~~~
 
-dependencies
-  Runtime dependencies
+The names (and optionally email addresses) of contributing people.
 
-Others
+Example:
+
+.. code-block:: xml
+
+  <authors>Jon Doe (jon@domain.tld), Max Mustermann</authors>
+
+url
+~~~
+
+Homepage representing the object.
+
+Example:
+
+.. code-block:: xml
+
+  <url>http://cream-project.org</url>
+
+parent
 ~~~~~~
 
-You can use your own optional entries in ``meta.xml``-files if there is no conflict to the entries mentioned above.
+This can be used to specify relations between objects.
+
+Example (as used in widgets):
+
+.. code-block:: xml
+
+  <parent>org.cream.melange</parent>
+
+depends
+~~~~~~~
+
+A list of runtime dependencies needed to be loaded before starting this object. If you mark a dependency as not required, it could not be loaded. Do this only if the dependency is really optional!
+
+Example:
+
+.. code-block:: xml
+
+  <depends>
+      <module>org.cream.keyring</module>
+      <module required="false">org.cream.hotkeys</module>
+  </depends>
 
 Implementation
 --------------
