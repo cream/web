@@ -1,0 +1,21 @@
+%% wiki
+
+Meta Data
+=========
+
+Specification
+-------------
+
+Meta data is being stored in simple XML-files called `meta.xml`.
+
+In the following the term *object* will be used for the module, widget, whatsoever, etc. being described by the meta data.
+
+Required Entries
+----------------
+
+name
+  A human-readable name for the object.
+
+id
+  A short identification string for the object in reversed domain style.
+  Examples: ``org.cream.melange``, ``com.apple.coolinvention™`` (Note: "™" can't really be used within ids!)
