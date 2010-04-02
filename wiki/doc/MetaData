@@ -13,6 +13,14 @@ In the following the term *object* will be used for the module, widget, whatsoev
 Required Entries
 ^^^^^^^^^^^^^^^^
 
+Overview:
+
+- `name`_
+- `id`_
+- `type`_
+- `license`_
+- `version`_
+
 name
 ~~~~
 
