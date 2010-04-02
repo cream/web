@@ -14,11 +14,17 @@ Required Entries
 ^^^^^^^^^^^^^^^^
 
 name
-  A human-readable name for the object.
+~~~~
+
+A human-readable name for the object.
 
 id
-  A short identification string for the object in reversed domain style.
-  Examples: ``org.cream.melange``, ``com.apple.coolinvention™`` (Note: "™" can't really be used within ids!)
+~~
+
+A short identification string for the object in reversed domain style.
+
+Example:: xml
+  <id>org.cream.module</id>
 
 type
   The type of the object.
@@ -38,11 +44,6 @@ General
 
 depends
   A list of ``module``-nodes containing the ID of required modules.
-  ..code-block:: xml
-    <depends>
-        <module>org.cream.keyring</module>
-        <module required="false">org.cream.hotkeys</module>
-    </depends>
 
 icon
   (Relative) path to an icon for the object.
