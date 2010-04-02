@@ -36,22 +36,33 @@ Optional Entries
 General
 ~~~~~~~
 
+depends
+  A list of ``module``-nodes containing the ID of required modules.
+  Example: ..code-block:: xml
+    <depends>
+        <module>org.cream.keyring</module>
+        <module required="false">org.cream.hotkeys</module>
+    </depends>
+
 icon
   (Relative) path to an icon for the object.
 
-maintainer
-  The name and email address (optional) of the maintainer.
-  Examples: ``"Jon Doe <jon@domain.tld>``, ``Max Mustermann``
-
 contributors
   The names of contributing people.
+  Example: ``"Jon Doe <jon@domain.tld>, Max Mustermann``
 
 homepage
   Homepage of the object.
 
 parent
-  This can be used to specify relations between objects.
-  Example: ``org.cream.melange.paste_widget.default`` has ``org.cream.melange.paste_widget`` as it's parent.
+  This can be used to specify relations between objects. Especially used with Melange.
+  Example: ``org.cream.paste_widget.default`` has ``org.cream.paste_widget`` as it's parent.
+
+Modules
+~~~~~~~
+
+dependencies
+  Runtime dependencies
 
 Others
 ~~~~~~
