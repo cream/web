@@ -30,12 +30,6 @@ license
 version
   The version of the object.
 
-author
-  The name of the author.
-
-mail
-  The mail address of the author.
-
 Optional Entries
 ^^^^^^^^^^^^^^^^
 
@@ -44,6 +38,13 @@ General
 
 icon
   (Relative) path to an icon for the object.
+
+maintainer
+  The name and email address (optional) of the maintainer.
+  Examples: ``"Jon Doe <jon@domain.tld>``, ``Max Mustermann``
+
+contributors
+  The names of contributing people.
 
 homepage
   Homepage of the object.
@@ -58,6 +59,6 @@ Others
 You can use your own optional entries in ``meta.xml``-files if there is no conflict to the entries mentioned above.
 
 Implementation
-^^^^^^^^^^^^^^
+--------------
 
 TBA
