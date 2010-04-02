@@ -35,7 +35,7 @@ Example:
 id
 ~~
 
-A short identification string for the object in reversed domain style. While we (the official team members) use the ``org.cream.*`` namespace, you should use something like ``com.apple.fancyinvention™`` (Note: You cannot really use "™" within the ID!).
+A short identification string for the object in reversed domain style. While we (the official team members) use the ``org.cream.*`` namespace, you should use something like ``com.apple.fancyinvention``.
 
 Example:
 
@@ -46,7 +46,7 @@ Example:
 type
 ~~~~
 
-The object's type. ``org.cream.module`` is being used for modules. You can use your own types like ``com.apple.coolinvention™.proprietarytype``.
+The object's type. ``org.cream.module`` is being used for modules. You can use your own types like ``com.apple.coolinvention.proprietarytype``.
 
 Example:
 
@@ -79,12 +79,20 @@ Example:
 Optional Entries
 ^^^^^^^^^^^^^^^^
 
-The following entries are being used in some cases. You can also use your own optional entries in ``meta.xml``-files if there is no conflict to the entries mentioned above and below!
+The following entries are being used in some cases. Optionally you can also define your own entries in meta.xml-files if they don't conflict with the entries mentioned above or below.
+
+Overview:
+
+- `icon`_
+- `authors`_
+- `url`_
+- `parent`_
+- `depends`_
 
 icon
 ~~~~
 
-(Relative) path to an image containing the icon for the object. This image should be a scalable graphic or have at least a resolution of 128x128px.
+(Relative) path to an image containing the icon for the object. This image should be a scalable graphic or have at least a resolution of 128x128px. While SVG and PNG are our preferred file format, you could also use other available formats like GIF, BMP, etc.
 
 Example:
 
