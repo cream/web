@@ -23,7 +23,9 @@ id
 
 A short identification string for the object in reversed domain style.
 
-Example:: XML
+Example
+
+.. code-block:: XML
   <id>org.cream.module</id>
 
 type
