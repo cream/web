@@ -25,8 +25,8 @@ A short identification string for the object in reversed domain style.
 
 Example
 
-.. code-block: xml
-  <id>org.cream.module</id>
+..code-block: python
+  print "jjj"
 
 type
   The type of the object.
