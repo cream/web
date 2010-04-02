@@ -43,10 +43,21 @@ General
 ~~~~~~~
 
 icon
-  TBA
+  (Relative) path to an icon for the object.
 
 homepage
-  TBA
+  Homepage of the object.
 
 parent
-  TBD
+  This can be used to specify relations between objects.
+  Example: ``org.cream.melange.paste_widget.default`` has ``org.cream.melange.paste_widget`` as it's parent.
+
+Others
+~~~~~~
+
+You can use your own optional entries in ``meta.xml``-files if there is no conflict to the entries mentioned above.
+
+Implementation
+^^^^^^^^^^^^^^
+
+TBA
