@@ -136,7 +136,7 @@ Example (as used in widgets):
 depends
 ~~~~~~~
 
-A list of runtime dependencies needed to be loaded before starting this object. If you mark a dependency as not required, it won't be assured that it is being loaded in some cases. So do this only if the dependency is really optional!
+A list of runtime dependencies needed to be loaded before loading this object. If you mark a dependency as not required, it won't be assured that it is being loaded in some cases. So do this only if the dependency is really optional!
 
 Example:
 
