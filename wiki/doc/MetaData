@@ -150,4 +150,7 @@ Example:
 Implementation
 --------------
 
-TBA
+Handling meta data can be done using the ``cream.meta`` module which abstracts accessing and searching for meta data.
+
+``cream.meta.MetaData``
+^^^^^^^^^^^^^^^^^^^^^^^
