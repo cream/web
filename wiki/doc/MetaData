@@ -154,3 +154,17 @@ Handling meta data can be done using the ``cream.meta`` module which abstracts a
 
 ``cream.meta.MetaData``
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+This class is a subclass of ``dict`` representing one single set of meta data. You can access it's values like with every other normal dictionary.
+
+This object holds all entries specified in the related ``meta.xml``-file and also two additional items:
+
+path
+~~~~
+
+This is the path to the directory containing the ``meta.xml``-file and therefore also the object described by this file.
+
+filepath
+~~~~~~~~
+
+The path to the file itself.
