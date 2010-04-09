@@ -27,3 +27,8 @@ JavaScript to Python Bridging
  
          gtk.do_something()
          return "Hello World!"
+
+
+.. code-block:: javascript
+
+ alert(widget.api.my_api.some_method("This is some useless parameter..."))
