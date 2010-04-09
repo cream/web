@@ -2,3 +2,28 @@
 
 JavaScript to Python Bridging
 =============================
+
+.. code-block:: python
+
+ from cream.contrib.melange import api
+ 
+ @api.register('my_api')
+ class MyAPI(api.API):
+ 
+     def __init__(self):
+ 
+         api.API.__init__(self)
+ 
+ 
+     @api.expose
+     def some_method(self, foo):
+ 
+         time.sleep(10)
+         return self.some_other_method()
+ 
+ 
+     @api.in_main_thread
+     def some_other_method(self):
+ 
+         gtk.do_something()
+         return "Hello World!"
