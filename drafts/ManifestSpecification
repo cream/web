@@ -1,0 +1,15 @@
+Fucking Specification™
+======================
+
+Wann ein Attribut, wann ein eigener Node?
+-----------------------------------------
+
+Eine notwendige Angabe, die direkt zu dem zu beschreibenden Objekt gehört, wird als Attribut geschrieben. Nachträglich zugewiesene, sekundäre Angaben sind Kind-Elemente.
+
+
+Explizit oder implizit?
+-----------------------
+
+Generell sollte alles, womit der Entwickler in Kontakt kommt ("Human-Framework-Interface"^^) explizit sein. Dabei sollte aber so viel wie möglich dem Bereich des Entwicklers entzogen werden.
+
+Wenn aber dem Entwickler die Möglichkeit gegeben wird, eine eigene Angabe zu machen, dann muss diese Annahme komplett explizit sein.
