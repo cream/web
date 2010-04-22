@@ -42,12 +42,16 @@
 
     <h2>What is Cream?</h2>
     <p>
-    Cream is a project working on a new GTK+-based Desktop Environment in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for new and advanced user.
+    Cream is a project working on a new GTK+-based Desktop Environment in order
+    to provide users and developers with easy to use but yet powerful software.
+    The project's aim is to develop modern and sleek libraries, services and
+    applications to improve the desktop experience for new and advanced users.
     </p>
 
     <h2>Get started!</h2>
     <p>
-    Here are some links that might be interesting for you to learn more about the project and how to get started with Cream.
+    Here are some links that might be interesting for you to learn more about
+    the project and how to get started with Cream.
     </p>
     <div class="getting_started">
         <ul id="first_steps">
