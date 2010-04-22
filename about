@@ -12,20 +12,35 @@
 
 <h1>About Cream</h1>
 
-Cream is a project working on a new GTK+-based Desktop Environment and the underlaying framework in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for new and advanced users.
+Cream is a project working on a new GTK+-based Desktop Environment and the underlaying
+framework in order to provide users and developers with easy to use but yet powerful software.
+The project's aim is to develop modern and sleek libraries, services and applications
+to improve the desktop experience for new and advanced users.
 
 <h2 name="compose">Compose your Desktop</h2>
 
-Cream's most essential philosophy is that every user - being a complete »newbie« or an advanced one - should be encouraged and enabled to compile his own »made to measure« Desktop Shell. We reach this goal by modularizing everything we do: Services are modules. Application are modules. It
-s that simple. You can decide what to install and use!
+Cream's most essential philosophy is that every user - being a complete »newbie«
+or an advanced one - should be encouraged and enabled to compile his own
+»made to measure« Desktop Shell. We reach this goal by modularizing everything we do:
+Services are modules. Application are modules. It's that simple. You can decide what to install and use!
 
 <h3 name="revamp">Revamp GNOME</h3>
 
-We all love GNOME, don't we? So why should we break up with that great project and live our lives in separation? In fact, both projects have most of their foundation in common. GTK+, Cairo, Python are WebKit just the most important cornerstones. There is absolutely no reason to prevent you from running parts of Cream - or even the whole Shell - besides your GNOME Desktop. Actually, most of us core developers are enjoying the synergy of this solution.
+We all love GNOME, don't we? So why should we break up with that great project
+and live our lives in separation? In fact, both projects have most of their foundation in common.
+GTK+, Cairo, Python and WebKit are just the most important cornerstones.
+There is absolutely no reason to prevent you from running parts of Cream --
+or even the whole Shell -- besides your GNOME Desktop.
+Actually, most of us core developers are enjoying the synergy of this solution.
 
 <h2 name="extend">Extend your Desktop</h2>
 
-As already mentioned above, we provide a simple framework for developing own modules and extending existing services and applications. Hm. You really want to know <span style="font-style: italic;">how</span> easy it is to write an application with e. g. a built-in configuration system including a user friendly settings dialog, the possibility to make use of global hotkeys and other great and easy to use features? Ok. You asked for it:
+As already mentioned above, we provide a simple framework for developing own
+modules and extending existing services and applications.
+Hm. You really want to know <span style="font-style: italic;">how</span>easy
+it is to write an application with e. g. a built-in configuration system
+including a user friendly settings dialog, the possibility to make use of
+global hotkeys and other great and easy to use features? Ok. You asked for it:
 
 <div style="border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc; background-color: #eeeeee; padding: 0px 15px  0px 15px; margin: 10px 0px 10px 0px;">
 <div class="syntax"><pre><span class="k">class</span> <span class="nc">MyModule</span><span class="p">(</span><span class="n">cream</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span> 
@@ -39,11 +54,18 @@ As already mentioned above, we provide a simple framework for developing own mod
 
 <h2>Melange</h2>
 
-<p>Melange is - at least for the moment - our most interesting and fastest evolving module and represents an important piece in the puzzle of Cream's Desktop Shell. It serves as our widget system and could be compared with Screenlets or Plasma.</p>
+<p>Melange is - at least for the moment - our most interesting and fastest evolving
+   module and represents an important piece in the puzzle of Cream's Desktop Shell.
+   It serves as our widget system and could be compared with Screenlets or Plasma.</p>
 
-<p>With Melange we provide users with mordern and useful widgets based on technologies around the WebKit project. Great performance, a small memory footprint (Only about 30% of the memory used by Screenlets!) and overwhelming visual presentation are just some of the arguments for using Melange.</p>
+<p>With Melange we provide users with mordern and useful widgets based on technologies
+   around the WebKit project. Great performance, a small memory footprint
+   (Only about 30% of the memory used by Screenlets!) and overwhelming visual
+   presentation are just some of the arguments for using Melange.</p>
 
-<p>Developing an own widget is as simple as writing an own module. You can use simple web technologies like HTML, JavaScript and CSS to design you user interface while utilizing the whole power of Python for collecting and processing data.</p>
+<p>Developing an own widget is as simple as writing an own module.
+   You can use simple web technologies like HTML, JavaScript and CSS to design
+   you user interface while utilizing the whole power of Python for collecting and processing data.</p>
 
 {% endblock %}
 
