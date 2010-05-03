@@ -1,8 +1,28 @@
 %% wiki
 
-Welcome
-=======
+Cream Wiki
+==========
 
-This is our wiki.
+Getting started
+---------------
+* `GettingStarted <GettingStarted>`_
+* `InstallFromGit <InstallFromGit>`_
 
-More to follow soon, when we've fully migrated the website. This will take some time. We hope to have done so within the next week.
+
+Developer docs
+--------------
+* docs
+
+  * `MetaData <MetaData>`_
+  * Melange
+
+    * `JSToPython <Melange/JSToPython>`_
+
+
+Sprints, Meetings etc
+---------------------
+* `LinuxTag2010 <LinuxTag2010>`_
+
+  * `IdeasForBooth <LinuxTag2010/IdeasForBooth>`_
+  * `Info <LinuxTag2010/Info>`_
+  * `Materials <LinuxTag2010/Materials>`_
