@@ -8,7 +8,7 @@ Exposed JavaScript API
 
 This API is implemented as a class to be used by a widget developer from the widgets's JavaScript.
 
-..code-block:: javascript
+.. code-block:: javascript
  var my_tooltip = new Tooltip($('the-div-serving-as-the-tooltip-content'), {
      parent: $('object-to-be-relative-to'),
      x: 42,
