@@ -3,5 +3,19 @@
 YouTube Player
 ==============
 
+Installation
+------------
+
+The YouTube Player is still under heavy development. You need to grab it from GitHub:
+
+.. code-block:: bash
+
+ $ git clone http://github.com/sbillaudelle/youtube-player.git
+ $ cd youtube-player
+ $ python youtube-player.py
+
+Screenshots
+-----------
+
 .. image:: http://droppy.lophus.org/eUoqR-YouTubePlayer-02_thumb.png
    :target: http://droppy.lophus.org/fcQev-YouTubePlayer-02.png
