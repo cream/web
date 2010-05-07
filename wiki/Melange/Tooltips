@@ -17,6 +17,22 @@ This API is implemented as a class to be used by a widget developer from the wid
      orientation: 'left'
      }
 
+The `Tooltip`-class exposes the following functions:
+
+`show()`
+~~~~~~~~
+
+Show the tooltip.
+
+
+`hide()`
+~~~~~~~~
+
+Hide the tooltip.
+
+
+Note: You should not use `x`, `y` and `orientation`. Specifing a `parent` object will be enaugh!
+
 
 Internal JavaScript API
 -----------------------
