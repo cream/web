@@ -10,12 +10,16 @@ This API is implemented as a class to be used by a widget developer from the wid
 
 .. code-block:: javascript
 
- var my_tooltip = new Tooltip($('the-div-serving-as-the-tooltip-content'), {
+ var my_tooltip = new Tooltip(content, {
      parent: $('object-to-be-relative-to'),
      x: 42,
      y: 42,
      orientation: 'left'
      }
+
+You may use a string or a div element with the CSS class `tooltip` as content (`$('the-div-serving-as-the-tooltip-content')`).
+
+Note: You should not use `x`, `y` and `orientation`. Specifing a `parent` object will be enaugh!
 
 The `Tooltip`-class exposes the following functions:
 
@@ -29,9 +33,6 @@ Show the tooltip.
 ~~~~~~~~
 
 Hide the tooltip.
-
-
-Note: You should not use `x`, `y` and `orientation`. Specifing a `parent` object will be enaugh!
 
 
 Internal JavaScript API
