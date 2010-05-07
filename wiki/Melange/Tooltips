@@ -1,0 +1,74 @@
+%% wiki
+
+Tooltips
+========
+
+Exposed JavaScript API
+----------------------
+
+This API is implemented as a class to be used by a widget developer from the widgets's JavaScript.
+
+..code-block:: javascript
+ var my_tooltip = new Tooltip($('the-div-serving-as-the-tooltip-content'), {
+     parent: $('object-to-be-relative-to'),
+     x: 42,
+     y: 42,
+     orientation: 'left'
+     }
+
+
+Internal JavaScript API
+-----------------------
+
+This API is part of the tooltip itself. It is used as an internal low-level interface for creating and manipulating a tooltip.
+
+`set_content(content)`
+~~~~~~~~~~~~~~~~~~~~~~
+
+Set the tooltips' content (as HTML).
+
+
+`get_content()`
+~~~~~~~~~~~~~~~~~~~~~~
+
+Return the current content.
+
+
+`set_orientation(orientation)`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Set the orientation of the tooltip. Following values are allowed:
+
+- `north`
+- `south`
+- `east`
+- `west`
+
+
+`get_orientation(orientation)`
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Return the current orientation.
+
+
+`get_offset()`
+~~~~~~~~~~~~~~
+
+Return the tooltips offset relative to it's reference point (depending on the tooltips orientation!).
+
+
+Internal Python API
+-------------------
+
+Note: The functions defined as the internal JavaScript API are being exposed on the Python interface as well!
+
+`set_position(x, y)`
+~~~~~~~~~~~~~~~~~~~~
+
+Set the position of the tooltip's reference point.
+
+
+`get_position(x, y)`
+~~~~~~~~~~~~~~~~~~~~
+
+Return the position of the tooltip's reference point.
