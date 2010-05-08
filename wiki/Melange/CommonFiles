@@ -1,0 +1,15 @@
+%% wiki
+
+Common Files
+============
+
+This document describes the file hirarchy of the framework's common files.
+
+The following data needs to be organized:
+
+- Melange's stylesheets. Importable with one single line of HTML code.
+- Mootools' framework.
+- Melange's core framework.
+- Melange's ui framework. Importable with one single line of HTML code.
+- Images.
+- HTML files for tooltips, Thingy, Control Area and Containers.
