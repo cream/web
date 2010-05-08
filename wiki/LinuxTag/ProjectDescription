@@ -1,0 +1,35 @@
+%% wiki
+
+Descriptions for the LinuxTag Information Paper
+===============================================
+
+English
+-------
+
+Short Description
+~~~~~~~~~~~~~~~~~
+
+Cream is a project working on improving desktop experience on GTK+-based desktop environments by writing modern and sleek applications and a easy to use framework.
+
+Long Description
+~~~~~~~~~~~~~~~~
+
+Cream is a project working on a new GTK+-based Desktop Environment in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for unexperienced and advanced user.
+
+Cream's most essential philosophy is that every user - being a complete »newbie« or an advanced one - should be encouraged and enabled to compile his own »made to measure« Desktop Shell. We reach this goal by modularizing everything we do: Services are modules. Application are modules. It s that simple. You can decide what to install and use!
+
+
+German
+------
+
+Short Description
+~~~~~~~~~~~~~~~~~
+
+Cream ist ein Projekt, mit welchem die Nutzerfreundlichkeit GTK+-basierter Desktopumgebungen verbessert werden soll. Fokus liegt auf der Entwicklung moderner und schlanker Applikationen und einem einfachen Framework für Entwickler.
+
+Long Description
+~~~~~~~~~~~~~~~~
+
+Mit Cream sollen Nutzern und Entwicklern mit einer neuen Desktopumgebung einfach zu nutzende, aber dennoch leistungsfähige Programme und Bibliotheken zur Verfügung gestellt werden, um die Nutzerfreundlichkeit zu verbessern.
+
+Kernpunkt des Projektes liegt darin, dass jeder Nutzer - erfahren oder nicht - in der Lage sein sollte, seinen maßgeschneiderten Desktop zusammenstellen zu können. Dies erreichen wir durch die strikte Modularisierung von Cream. Du kannst selbst entscheiden, was du nutzen möchtest!
