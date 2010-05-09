@@ -9,8 +9,28 @@ Framework
 Cleanup
 ~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+- Sebastian
+
+Status:
+^^^^^^^
+
+Not yet started...
+
 Unique Library
 ~~~~~~~~~~~~~~
+
+Assignees:
+^^^^^^^^^^
+
+- Friedrich
+
+Status:
+^^^^^^^
+
+Testing required!
 
 
 Media Service
@@ -19,15 +39,49 @@ Media Service
 Creation of Database
 ~~~~~~~~~~~~~~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
+Not yet started...
+
 Implementation of Player
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
+Not yet started...
 
 Implementation of GUI
 ~~~~~~~~~~~~~~~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
+Not yet started...
+
 
 Notification System
 -------------------
+
+Assignees:
+^^^^^^^^^^
+
+- Sebastian
+
+Status:
+^^^^^^^
+
+Not yet started...
 
 
 Melange
@@ -36,17 +90,60 @@ Melange
 Cleanup
 ~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+- Sebastian
+
+Status:
+^^^^^^^
+
+Not yet started...
+
 Implementation of Tooltips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assignees:
+^^^^^^^^^^
+
+- Sebastian
+- Immanuel
+
+Status:
+^^^^^^^
+
+Work in progress...
 
 Implementation of Container Concept
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+- Sebastian
+
+Status:
+^^^^^^^
+
+Work in progress.
+
 Port remaining widgets to the new api
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
 Implementation of New HTTP Server
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
 
 
 Website
@@ -55,8 +152,26 @@ Website
 Cleanup
 ~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
 Documentation
 ~~~~~~~~~~~~~
 
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
+
 Screencasts
 ~~~~~~~~~~~
+
+Assignees:
+^^^^^^^^^^
+
+Status:
+^^^^^^^
