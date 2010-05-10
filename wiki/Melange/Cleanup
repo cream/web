@@ -1,0 +1,11 @@
+%% wiki
+
+Cleanup of Melange
+==================
+
+Things to Clean Up
+------------------
+
+- WidgetInstance
+- WidgetWindow
+- Widget
