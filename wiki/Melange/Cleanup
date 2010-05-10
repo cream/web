@@ -9,3 +9,5 @@ Things to Clean Up
 - WidgetInstance
 - WidgetWindow
 - Widget
+- `build_ui()`, `init_api()`
+- Backrefs in `HttpServer`.
