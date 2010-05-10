@@ -6,188 +6,69 @@ Roadmap for the LinuxTag 2010
 Framework
 ---------
 
-Cleanup
-~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-
-Status:
-^^^^^^^
-
-Not yet started...
-
-Unique Library
-~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Friedrich
-
-Status:
-^^^^^^^
-
-Testing required!
++----------------+-------------+-------------------+-------+
+| Task           | Assignee(s) | State             | Links |
++================+=============+===================+=======+
+| Cleanup        | Sebastian   | Not yet started   |       |
++----------------+-------------+-------------------+-------+
+| Unique Library | Friedrich   | Testing required! |       |
++----------------+-------------+-------------------+-------+
 
 
 Media Service
 -------------
 
-Creation of Database
-~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Not yet started...
-
-Implementation of Player
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Not yet started...
-
-Implementation of GUI
-~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Not yet started...
++----------+-------------+-------+-------+
+| Task     | Assignee(s) | State | Links |
++==========+=============+=======+=======+
+| Database |             |       |       |
++----------+-------------+-------+-------+
+| Player   |             |       |       |
++----------+-------------+-------+-------+
+| GUI      |             |       |       |
++----------+-------------+-------+-------+
 
 
 Notification System
 -------------------
 
-Mockups
-~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-
-Status:
-^^^^^^^
-
-Not yet started...
-
-Implementation
-~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-
-Status:
-^^^^^^^
-
-Not yet started...
++----------------+-------------+-----------------+-------+
+| Task           | Assignee(s) | State           | Links |
++================+=============+=================+=======+
+| Mockups        | Sebastian   | Not yet startd  |       |
++----------------+-------------+-----------------+-------+
+| Implementation | Sebastian   | Not yet started |       |
++----------------+-------------+-----------------+-------+
 
 
 Melange
 -------
 
-Cleanup
-~~~~~~~
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
+| Task                                 | Assignee(s)         | State            | Links                                                          |
++======================================+=====================+==================+================================================================+
+| Cleanup                              | Sebastian           | Not yet started  |                                                                |
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
+| Tooltips                             | Sebastian, Immanuel | Work in progess  |                                                                |
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
+| Containers                           | Sebastian           | Work in progress |                                                                |
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
+| Porting remaining Widgets to new API |                     |                  |                                                                |
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
+| New HTTP Server                      | Jonas               | Work in progress | `bjoern, a screamingly fast Python WSGI server written in C.`_ |
++--------------------------------------+---------------------+------------------+----------------------------------------------------------------+
 
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-
-Status:
-^^^^^^^
-
-Not yet started...
-
-Implementation of Tooltips
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-- Immanuel
-
-Status:
-^^^^^^^
-
-Work in progress...
-
-Implementation of Container Concept
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-- Sebastian
-
-Status:
-^^^^^^^
-
-Work in progress.
-
-Port remaining widgets to the new api
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Implementation of New HTTP Server
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
+.. _bjoern, a screamingly fast Python WSGI server written in C.: http://github.com/jonashaag/bjoern
 
 Website
 -------
 
-Cleanup
-~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Documentation
-~~~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
-
-Screencasts
-~~~~~~~~~~~
-
-Assignees:
-^^^^^^^^^^
-
-Status:
-^^^^^^^
++---------------+-------------+-------+-------+
+| Task          | Assignee(s) | State | Links |
++===============+=============+=======+=======+
+| Cleanup       |             |       |       |
++---------------+-------------+-------+-------+
+| Documentation |             |       |       |
++---------------+-------------+-------+-------+
+| Screencasts   |             |       |       |
++---------------+-------------+-------+-------+
