@@ -7,9 +7,9 @@ The Cream Finery Theme is a Metacity- and GTK+ Theme based on Ubuntu's new Radia
 
 Ideas
 -----
- * Perhaps less gloss on buttons
- * More emboss on progressbar background
- * Simple, flat list items
- * Top margin of Notebook-Tabs should be more than 0px
- * Menubar color == window background color, while toolbar's getting a gradient
- * Fix the weird shade switching (light/dark, dark/light) when hovering over a ComboBox
+* Less gloss on buttons
+* More emboss on progressbar background
+* Simple, flat list items
+* Top margin of Notebook-Tabs should be more than 0px
+* Menubar color == window background color, while toolbar's getting a gradient
+* Fix the weird shade switching (light/dark, dark/light) when hovering over a ComboBox
