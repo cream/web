@@ -11,3 +11,8 @@
 .codeblock pre {
     margin: 0px;
     }
+
+table.docutils {
+    width: 100%;
+    border: 1px solid #6D6D6D;
+    }
