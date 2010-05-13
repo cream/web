@@ -22,7 +22,7 @@ Developer docs
 --------------
 * docs
 
-  * `MetaData <MetaData>`_
+  * `MetaData <doc/MetaData>`_
   * Melange
 
     * `JSToPython <doc/Melange/JSToPython>`_
