@@ -15,4 +15,15 @@
 table.docutils {
     width: 100%;
     border: 1px solid #6D6D6D;
+    border-collapse: collapse;
+    }
+
+table.docutils th {
+    border: 1px solid #6D6D6D;
+    background-color: #EBEBEB;
+    }
+
+
+table.docutils td {
+    border: 1px solid #6D6D6D;
     }
