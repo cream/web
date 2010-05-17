@@ -8,7 +8,28 @@ Phrases for Butler
 
 Show the current time.
 
+"jobs?"
+~~~~~~~
+
+"whatsup?"
+~~~~~~~~~~
+
+Show jobs.
+
 "meeting with Jon Doe at P11 at 8pm"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Add a date.
+
+"do concept until tuesday"
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+"concept due until tuesday with high priority"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+"call mandy until 6pm"
+~~~~~~~~~~~~~~~~~~~~~~
+
+Add a todo entry.
+
+
