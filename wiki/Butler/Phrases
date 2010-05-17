@@ -16,6 +16,14 @@ Show the current time in New York.
 ----------------------------
 Show "yesterday, 2 o'clock" for all time zones in Australia.
 
+"weather in Johannesburg"
+----------------------------
+Show the current weather in Johannesburg
+
+"weather in Johannesburg in Fahrenheit"
+----------------------------
+Show the current weather in Johannesburg in Fahrenheit
+
 "jobs?"
 ~~~~~~~
 
@@ -27,6 +35,9 @@ Show jobs.
 "meeting with Jon Doe at P11 at 8pm"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+"party next friday at home"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Add a date.
 
 "do concept until tuesday"
@@ -37,6 +48,9 @@ Add a date.
 
 "call mandy until 6pm"
 ~~~~~~~~~~~~~~~~~~~~~~
+
+"walk the dog every day"
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Add a todo entry.
 
