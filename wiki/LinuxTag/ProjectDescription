@@ -9,15 +9,16 @@ English
 Short Description
 ~~~~~~~~~~~~~~~~~
 
-Cream is a project working on improving desktop experience on GTK+-based desktop environments by writing modern and sleek applications and a easy to use framework.
+The Cream project has been started with the intention of developing a modern, elegant and user-friendly desktop environment based on GTK+. The integration and interaction of the individual components as well as the flexibility offered to the user are in the focus of development - Compose your Desktop!
 
 Long Description
 ~~~~~~~~~~~~~~~~
 
-Cream is a project working on a new GTK+-based Desktop Environment in order to provide users and developers with easy to use but yet powerful software. The project's aim is to develop modern and sleek libraries, services and applications to improve the desktop experience for unexperienced and advanced user.
+The intention of the Cream project is to develop a desktop environment based on GTK+. Due to its modular structure it enables the user to shape his desktop according to his own requirements. Cream puts the stress on the integration and interaction of the individual components.
 
-Cream's most essential philosophy is that every user - being a complete »newbie« or an advanced one - should be encouraged and enabled to compile his own »made to measure« Desktop Shell. We reach this goal by modularizing everything we do: Services are modules. Application are modules. It s that simple. You can decide what to install and use!
+Furthermore, compatibility with the GNOME-world has a high priority in order to allow potential users to max out and combine the advantages of both environments.
 
+Also, Cream provides developers a powerful but simple framework which makes it easy to extend Cream and create own modules.
 
 German
 ------
@@ -25,14 +26,14 @@ German
 Short Description
 ~~~~~~~~~~~~~~~~~
 
-Das Cream-Projekt hat sich zum Ziel gesetzt, eine moderne, elegante und nutzerfreundliche Desktopumgebung auf GTK+-Basis zu entwickeln. Besonderer Fokus liegt dabei auf Integration und Kommunikation der einzelnen Komponenten untereinander sowie Flexibilität für den Nutzer - Compose your Desktop!
+Das Cream-Projekt hat sich zum Ziel gesetzt, eine moderne, elegante und nutzerfreundliche Desktopumgebung auf GTK+-Basis zu entwickeln. Besonderer Fokus liegt dabei auf der Integration und Kommunikation der einzelnen Komponenten untereinander sowie Flexibilität für den Nutzer - Compose your Desktop!
 
 Long Description
 ~~~~~~~~~~~~~~~~
 
 Ziel des Cream-Projektes ist die Entwicklung einer neuen GTK+-basierten Desktopumgebung, welche dem Nutzer durch ihre modulare Struktur die Werkzeuge in die Hand gibt, seinen Desktop ganz nach seinen eigenen Wünschen zusammenzustellen.
-Besonderer Fokus liegt dabei auf Integration und Kommunikation der einzelnen Komponenten.
+Besonderer Fokus liegt dabei auf der Integration und Kommunikation der einzelnen Komponenten.
 
 Weiterhin nimmt die Kompatibilität mit der GNOME-Welt einen hohen Stellenwert ein, um potentiellen Nutzern die Möglichkeit zu geben, die Vorzüge beider Umgebungen optimal auszuschöpfen und zu kombinieren.
 
-Für Entwickler bietet Cream außerdem ein mächtiges und einfach zu nutzendes Framework, welches die Erweiterung Creams durch die Entwicklung eigener Module erleichtert.
+Für Entwickler bietet Cream außerdem ein mächtiges und einfach zu nutzendes Framework, welches die Erweiterung Creams und die Entwicklung eigener Module erleichtert.
