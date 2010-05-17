@@ -8,6 +8,14 @@ Phrases for Butler
 
 Show the current time.
 
+"time in New York"
+------------------
+Show the current time in New York.
+
+"yesterday, 2h in Australia"
+----------------------------
+Show "yesterday, 2 o'clock" for all time zones in Australia.
+
 "jobs?"
 ~~~~~~~
 
