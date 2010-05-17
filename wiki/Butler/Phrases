@@ -16,6 +16,11 @@ Show the current time in New York.
 ----------------------------
 Show "yesterday, 2 o'clock" for all time zones in Australia.
 
+"weather?"
+~~~~~~~~~~
+
+Show the current weather.
+
 "weather in Johannesburg"
 -------------------------
 Show the current weather in Johannesburg
