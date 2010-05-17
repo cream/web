@@ -1,0 +1,37 @@
+%% wiki
+
+Language of Butler
+==================
+
+Words
+-----
+
+Commands
+~~~~~~~~
+
+If you want to tell your computer to do something, you need to use a command. This command is the core component of every "conversation" with your machine and can be question-line (*time?*) or a "real" command (*add …*).
+
+Primary Objects
+~~~~~~~~~~~~~~~
+
+There are some special objects being used in Butler's language. E. g.:
+
+this
+^^^^
+
+Referring to the currently selected text.
+
+you
+^^^
+
+The machine itself.
+
+me
+^^
+
+The user (You.).
+
+Secondary Objects
+~~~~~~~~~~~~~~~~~
+
+Most commands make use of own objects like dates, locations, files, etc. These may be predifined or specified in the commands definition.
