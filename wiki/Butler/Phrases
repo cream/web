@@ -17,11 +17,11 @@ Show the current time in New York.
 Show "yesterday, 2 o'clock" for all time zones in Australia.
 
 "weather in Johannesburg"
-----------------------------
+-------------------------
 Show the current weather in Johannesburg
 
 "weather in Johannesburg in Fahrenheit"
-----------------------------
+---------------------------------------
 Show the current weather in Johannesburg in Fahrenheit
 
 "jobs?"
