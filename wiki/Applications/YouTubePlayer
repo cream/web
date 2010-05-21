@@ -19,3 +19,20 @@ Screenshots
 
 .. image:: http://droppy.lophus.org/eUoqR-YouTubePlayer-02_thumb.png
    :target: http://droppy.lophus.org/fcQev-YouTubePlayer-02.png
+
+
+Ideas
+=====
+* display the video's rating (floating point)
+* display the video's author/uploader
+* implement subtitle displaying (``has_cc``, ``cc_*``, ``tts*``)
+* display the video's upload date
+* implement possibility to display the video's youtube.com URL and stream URLs
+  for all resolutions/qualities
+* what is ``fxep``?
+
+Subtitles
+---------
+* Note that there can be multiple subtitle tracks (different languages)
+* ``cc_font`` recommends a font for the subtitle
+* what is ``cc_asr`` and ``cc_load_policy``?
