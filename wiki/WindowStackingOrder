@@ -1,0 +1,27 @@
+%% wiki
+
+Window Stacking Order
+=====================
+
+Objective
+---------
+
+While developing »Melange«, a widget system for the Cream Desktop Environment, I discovered some problems with the way of handling the windows' stacking order. Not that these issues were completely new to me. When I was using Screenlets I had exactly the same issues as today - from a users point of view.
+
+The Users Point of View
+-----------------------
+
+Most users just expect their desktop to work as expected. If they choose to run a widget system like Screenlets or Melange, they mostly want these widgets to be kept below their application windows. They just can't understand that these widgets get rised when they open a configuration dialog or some other modal window.
+
+Some years ago I had exactly this problem: I opened a Screenlets' settings dialog and --- BAM --- all those beautiful screenlets were displayed above every other window. And when I closed the dialog... They just stayed on top. To be honest - that was really annoying.
+
+The Developers Point of View
+----------------------------
+
+Time went by and I didn't use a widget system anymore. Until I started hacking Melange. And, hell yeah, *hacking* was required to work around all the different window manager's glitches.
+
+Today, I'm pretty annoyed. Let me explain you why:
+
+For a complex system like melange, a widget is typically contained in a undecorated window of the type _NET_WM_WINDOW_TYPE_DOCK. This is crucial, since the window must have the ability to be moved to wherever you want - without caring about possibly set struts. There is just one tiny little problem: _NET_WM_WINDOW_TYPE_DOCK-windows are normally being kept above other windows which does make sense in the most cases (panels, etc.). But you as a developer should be given a way to override this default setting. Just by setting _NET_WM_STATE_BELOW. So. Basically: A window which is normally being kept above should stay in the background when stated otherwise. Sounds logical, uh?
+
+I took a look at the Extended Window Manager Hints Specification (http://standards.freedesktop.org/wm-spec/wm-spec-latest.html) and didn't find any part where it was stated otherwise. Just the opposite: The specification says the following: "windows of type _NET_WM_TYPE_DOCK (unless they have state _NET_WM_TYPE_BELOW) and windows having state _NET_WM_STATE_ABOVE" should be kept above other windows (except for focused windows with the state FULLSCREEN). To point it out: "**unless they have state _NET_WM_TYPE_BELOW**".
