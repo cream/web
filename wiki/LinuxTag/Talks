@@ -6,18 +6,11 @@ Talks
 Bitte trage dich bei den Vorträgen ein, welche du ungerne verpassen würdest! Unter http://www.linuxtag.org/2010/de/program/program.html findest du weitere Vorträge. Du kannst die Liste der Vorträge gerne erweitern! Bitte notiere mit einem `(-)`, `( )` oder `(+)`, wie sehr du an dem jeweilige Vortrag interessiert bist!
 
 
-.. image:: http://droppy.lophus.org/Kl8ub-wednesday_talks.png
-
-.. image:: http://droppy.lophus.org/jnh6n-thursday_talks.png
-
-.. image:: http://droppy.lophus.org/LNbrt-friday_talks.png
-
-.. image:: http://droppy.lophus.org/ZQhEr-saturday_talks.png
-
-
-
 Wednesday
 ---------
+
+.. image:: http://droppy.lophus.org/Kl8ub-wednesday_talks.png
+    :width: 600px
 
 14.00 - 15.00: Geld verdienen mit Open Source
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,6 +24,9 @@ Wednesday
 
 Thursday
 --------
+
+.. image:: http://droppy.lophus.org/jnh6n-thursday_talks.png
+    :width: 600px
 
 10.00 - 10.30: Libyui - Universal User Interface Development Library
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -80,6 +76,9 @@ Thursday
 Friday
 ------
 
+.. image:: http://droppy.lophus.org/LNbrt-friday_talks.png
+    :width: 600px
+
 10:00 - 10:30: Truths and Lies: Where's the Open Source Mobile Phone?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -126,6 +125,9 @@ Friday
 
 Saturday
 --------
+
+.. image:: http://droppy.lophus.org/ZQhEr-saturday_talks.png
+    :width: 600px
 
 10.00 - 11.00: Open Source und Film - das Kino wird frei
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
