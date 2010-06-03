@@ -5,6 +5,8 @@ Talks
 
 Bitte trage dich bei den Vorträgen ein, welche du ungerne verpassen würdest! Unter http://www.linuxtag.org/2010/de/program/program.html findest du weitere Vorträge. Du kannst die Liste der Vorträge gerne erweitern! Bitte notiere mit einem `(-)`, `( )` oder `(+)`, wie sehr du an dem jeweilige Vortrag interessiert bist!
 
+
+
 Wednesday
 ---------
 
@@ -14,6 +16,9 @@ Wednesday
 - Jonas ( )
 - Sebastian ( )
 - Friedrich (-)
+- Immanuel ( )
+
+
 
 Thursday
 --------
@@ -22,6 +27,7 @@ Thursday
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Friedrich (+)
+- Immanuel ( )
 
 
 12.00 - 12.30: Linux und die elektronische Gesundheitskarte
@@ -30,24 +36,37 @@ Thursday
 - Jonas (-)
 - Friedrich (-)
 
+
+14.00 - 15.00: Keynote: Microsoft and Open Source
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Jonas (+)
+
+
 15:00 - 16:00: Making Linux Sexy: Don't Forget the End User
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Sebastian (+)
 - Jonas (+)
 - Friedrich ( )
+- Immanuel ( )
+
 
 16.30 - 17.00: KOffice2
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas ( )
 - Friedrich ( )
+- Immanuel (-)
+
 
 16.30 - 17.00: Agile Development and unit testing in a web environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas (+)
 - Friedrich (-)
+
+
 
 Friday
 ------
@@ -59,11 +78,14 @@ Friday
 - Sebastian (+)
 - Friedrich (-)
 
+
 11:00 - 12:00: Getting the word out: free software project promotion
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Sebastian ( )
 - Friedrich ( )
+- Jonas ( )
+
 
 12:00 - 13:00: MeeGo - Linux for Mobile Devices
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,17 +93,27 @@ Friday
 - Sebastian (-)
 - Friedrich (-)
 
+
 12.30 - 13.00: Introducing MongoDB: Open Source, Non-Relational Database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas ( )
 - Friedrich ( )
 
+
+14.00 - 15.00: Keynote: Google and Open Source
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Jonas (+)
+
+
 15.30 - 16.00: Die Android-Laufzeitumgebung
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas (+)
 - Friedrich ( )
+
+
 
 Saturday
 --------
@@ -91,11 +123,13 @@ Saturday
 
 - Friedrich ( )
 
+
 10.30 - 11.00: Cleaning up the PCMCIA subsystem - lessons learned for kernel development
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas ( )
 - Friedrich (-)
+
 
 11:00 - 11:30: Kernel Mode Setting - a Change in Paradigms for the Graphics Driver Stack.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -103,12 +137,15 @@ Saturday
 - Sebastian ( )
 - Friedrich ( )
 
+
 11.00 - 11.30: The road to GNOME 3.0
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas ( )
 - Sebastian (+)
 - Friedrich ( )
+- Immanuel ( )
+
 
 11:30 - 12:00: GNOME 3.0 - The technologie it builds upon
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -117,44 +154,68 @@ Saturday
 - Sebastian (+)
 - Friedrich ( )
 
+11.00 - 13.00: Wettstreit der Distributionen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Jonas (-)
+- Friedrich (-)
+
 11.30 - 12.00: IO Memory Management Units - Design and Implementation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas ( )
-
-11.00 - 13.00: Wettstreit der Distributionen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-- Friedrich (-)
 
 12.00 - 12.30: Recent Progress in Linux Kernel Tracing and Debugging
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas (-)
 
+
 12.30 - 13.00: Kernel Dumping
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas (-)
+
 
 13.00 - 13.30: The kernel report
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Friedrich (+)
 
-14:00 - 15:00: What's new in Ubuntu-Land
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+14:00 - 15:00: Keynote: What's new in Ubuntu-Land
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Sebastian (+)
 - Friedrich ( )
+- Jonas ( )
+- Immanuel (+)
+
 
 16:00 - 17:00: What's new, GIMP?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Sebastian (+)
+- Immanuel (+)
+
 
 17.00 - 18.00: Kernel Kewstioning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Jonas (+)
 - Sebastian (+)
+<<<<<<< HEAD
+=======
+
+
+17.00 - 18.00: Scribus: Open Source Desktop Publishing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Immanuel ( )
+
+
+17:30 - 18:00: Produktiver Arbeiten mit Gnome-Do
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Sebastian ( )
+>>>>>>> 9b6a2437041dfdeda91b865c22081ddbe9f61103
