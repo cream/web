@@ -6,14 +6,14 @@ Window Stacking Order
 Objective
 ---------
 
-While developing »Melange«, a widget system for the Cream Desktop Environment, I discovered some problems with the way of handling the windows' stacking order. Not that these issues were completely new to me. When I was using Screenlets I had exactly the same issues as today - from a users point of view.
+While developing »Melange«, a widget system for the Cream Desktop Environment, I discovered some problems with the way of handling the windows' stacking order. Not that these issues were completely new to me. When I was using Screenlets I had exactly the same issues as today -- from a users point of view.
 
 The Users Point of View
 -----------------------
 
 Most users just expect their desktop to work as expected. If they choose to run a widget system like Screenlets or Melange, they mostly want these widgets to be kept below their application windows. They just can't understand that these widgets get rised when they open a configuration dialog or some other modal window.
 
-Some years ago I had exactly this problem: I opened a Screenlets' settings dialog and --- BAM --- all those beautiful screenlets were displayed above every other window. And when I closed the dialog... They just stayed on top. To be honest - that was really annoying.
+Some years ago I had exactly this problem: I opened a Screenlets' settings dialog and --- BAM --- all those beautiful screenlets were displayed above every other window. And when I closed the dialog... They just stayed on top. To be honest -- that was really annoying.
 
 The Developers Point of View
 ----------------------------
@@ -22,11 +22,11 @@ Time went by and I didn't use a widget system anymore. Until I started hacking M
 
 Today, I'm pretty annoyed. Let me explain you why:
 
-For a complex system like Melange, a widget is typically contained in a undecorated window of the type _NET_WM_WINDOW_TYPE_DOCK. This is crucial, since the window must have the ability to be moved to wherever you want - without caring about possibly set struts. There is just one tiny little problem: _NET_WM_WINDOW_TYPE_DOCK-windows are normally being kept above other windows which does make sense in the most cases (panels, etc.). But you as a developer should be given a way to override this default setting. Just by setting _NET_WM_STATE_BELOW. So. Basically: A window which is normally being kept above should stay in the background when stated otherwise. Sounds logical, uh?
+For a complex system like Melange, a widget is typically contained in a undecorated window of the type ``_NET_WM_WINDOW_TYPE_DOCK``. This is crucial, since the window must have the ability to be moved to wherever you want -- without caring about possibly set struts. There is just one tiny little problem: ``_NET_WM_WINDOW_TYPE_DOCK``-windows are normally being kept above other windows which does make sense in the most cases (panels, etc.). But you as a developer should be given a way to override this default setting. Just by setting ``_NET_WM_STATE_BELOW``. So. Basically: A window which is normally being kept above should stay in the background when stated otherwise. Sounds logical, uh?
 
-I took a look at the Extended Window Manager Hints Specification (http://standards.freedesktop.org/wm-spec/wm-spec-latest.html) and didn't find any part where it was stated otherwise. Just the opposite: The specification says the following: "windows of type _NET_WM_TYPE_DOCK (unless they have state _NET_WM_STATE_BELOW) and windows having state _NET_WM_STATE_ABOVE" should be kept above other windows (except for focused windows with the state FULLSCREEN). To point it out: "**unless they have state _NET_WM_STATE_BELOW**".
+I took a look at the Extended Window Manager Hints Specification (http://standards.freedesktop.org/wm-spec/wm-spec-latest.html) and didn't find any part where it was stated otherwise. Just the opposite: The specification says the following: "windows of type ``_NET_WM_TYPE_DOCK`` (unless they have state ``_NET_WM_STATE_BELOW``) and windows having state ``_NET_WM_STATE_ABOVE``" should be kept above other windows (except for focused windows with the state ``FULLSCREEN``). To point it out: "**unless they have state _NET_WM_STATE_BELOW**".
 
-My proposal would be to have a default stacking order defined by the windows' type hints. A _NET_WM_TYPE_DOCK is being kept above, a _NET_WM_TYPE_DESKTOP below - unless a developer sets a more detailed state flag to override the default stacking position of a window. Most developers know what they are doing and why they are doing it and they shouldn't be restricted by a window manager.
+My proposal would be to have a default stacking order defined by the windows' type hints. A ``_NET_WM_TYPE_DOCK`` is being kept above, a ``_NET_WM_TYPE_DESKTOP`` below -- unless a developer sets a more detailed state flag to override the default stacking position of a window. Most developers know what they are doing and why they are doing it and they shouldn't be restricted by a window manager.
 
 I submitted a patch to fix this issue in Compiz 0.9 which already got accepted (Thanks, Sam!). Unfortunately I don't think that Compiz is the only WM suffering from this wrong implementation. The only way of bringing an improved desktop experience to users and to improve coherency is to allow developers to cross-wm-ly develop ass-kicking widget systems that don't fail because of a desultorily written and implemented specification.
 
@@ -35,4 +35,4 @@ My Proposal
 
 I would like to propose the following change to the EWMH specification: Add the following sentence to http://standards.freedesktop.org/wm-spec/wm-spec-latest.html#STACKINGORDER:
 
- Window managers should take notice of _NET_WM_STATE_BELOW and _NET_WM_STATE_ABOVE even if a windows' type hint my propose another stacking position.
+ Window managers should take notice of ``_NET_WM_STATE_BELOW`` and ``_NET_WM_STATE_ABOVE`` even if a windows' type hint my propose another stacking position.
