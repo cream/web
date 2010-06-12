@@ -5,33 +5,29 @@ Installing Cream in a Sandbox
 
 Installation
 ------------
+For Ubuntu, do ::
 
-    .. code-block:: bash
-
-    # Ubuntu
-    $ sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev python-lxml python-webkit-dev libwebkit-dev
-    $ git clone git://github.com/cream/cream
-    $ cd cream/
-    $ make setup
-
+    sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev \
+                         python-lxml python-webkit-dev libwebkit-dev
+    git clone git://github.com/cream/cream
+    cd cream/
+    make setup
 
 On other distros, please install the packages named above.
 
 
 Joining the Sandbox
 -------------------
-To join the Cream sandbox, do:
+To join the Cream sandbox, do ::
 
-    .. code-block:: bash
-
-    $ source /path/to/cream/dev/bin/activate
+    source /path/to/cream/dev/bin/activate
 
 
 Running stuff
 -------------
 After joining the sandbox, navigate to ``/path/to/cream/src/modules/`` and start modules, e.g. for Melange::
-    
-    .. code-block:: bash
 
-    $ cd melange
-    $ python melange.py
+    cd melange
+    python melange.py
+
+
