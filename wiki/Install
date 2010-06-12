@@ -5,16 +5,15 @@ Installing Cream in a Sandbox
 
 Installation
 ------------
-For Ubuntu, do:
 
     .. code-block:: bash
-    
-    # Install
-    $ sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev \
-                         python-lxml python-webkit-dev libwebkit-dev
+
+    # Ubuntu
+    $ sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev python-lxml python-webkit-dev libwebkit-dev
     $ git clone git://github.com/cream/cream
     $ cd cream/
     $ make setup
+
 
 On other distros, please install the packages named above.
 
