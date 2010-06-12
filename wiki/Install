@@ -9,6 +9,7 @@ For Ubuntu, do:
 
     .. code-block:: bash
     
+    # Install
     $ sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev \
                          python-lxml python-webkit-dev libwebkit-dev
     $ git clone git://github.com/cream/cream
