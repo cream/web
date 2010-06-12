@@ -55,11 +55,11 @@
     </p>
     <div class="getting_started">
         <ul id="first_steps">
-            <li><a href="/about">About</a></li>
-            <li><a href="/wiki/releases/FirstDeveloperPreview">Install the developer preview</a></li>
-            <li><a href="/wiki/InstallFromGit">Install from Git</a></li>
-            <li><a href="/wiki/GettingStarted">Getting started</a></li>
-            <li><a href="http://github.com/cream/">Information about Cream on GitHub (code, issue tracker, etc.)</a></li>
+            <!--<li><a href="/about">About</a></li>-->
+            <!--<li><a href="/wiki/releases/FirstDeveloperPreview">Install the developer preview</a></li>-->
+            <li><a href="/wiki/Install">Install in a Sandbox</a></li>
+            <!--<li><a href="/wiki/GettingStarted">Getting started</a></li>-->
+            <li><a href="http://github.com/cream/">Cream on github</a></li>
         </ul>
     </div>
     
@@ -68,6 +68,10 @@
 {% endblock %}
 
 {% block sidebar %}
+
+#cream on irc.freenode.net <br>
+github.com/cream <br>
+cream AT cream-project DOT org
 
 <div id="identica">
 
