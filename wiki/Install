@@ -20,14 +20,14 @@ Joining the Sandbox
 -------------------
 To join the Cream sandbox, do ::
 
-    source /path/to/cream/dev/bin/activate
+    source dev/bin/activate
 
 
 Running stuff
 -------------
 After joining the sandbox, navigate to ``/path/to/cream/src/modules/`` and start modules, e.g. for Melange::
 
-    cd melange
+    cd src/modules/melange
     python melange.py
 
 
