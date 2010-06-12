@@ -7,11 +7,12 @@ Installation
 ------------
 For Ubuntu, do ::
 
-    sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev \
+    .. code-block:: bash
+    $ sudo apt-get install git-core python-virtualenv bzr cython libev-dev python-dev \
                          python-lxml python-webkit-dev libwebkit-dev
-    git clone git://github.com/cream/cream
-    cd cream/
-    make setup
+    $ git clone git://github.com/cream/cream
+    $ cd cream/
+    $ make setup
 
 On other distros, please install the packages named above.
 
@@ -20,12 +21,14 @@ Joining the Sandbox
 -------------------
 To join the Cream sandbox, do ::
 
-    source /path/to/cream/dev/bin/activate
+    .. code-block:: bash
+    $ source /path/to/cream/dev/bin/activate
 
 
 Running stuff
 -------------
 After joining the sandbox, navigate to ``/path/to/cream/src/modules/`` and start modules, e.g. for Melange::
-
-    cd melange
-    python melange.py
+    
+    .. code-block:: bash
+    $ cd melange
+    $ python melange.py
