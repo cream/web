@@ -1,0 +1,36 @@
+%% wiki
+
+Polishing Melange
+=================
+
+Get Rid of the Overlay Mode
+---------------------------
+
+Remove the overlay mode and implement the functionality in a widget.
+
+
+Speed Up Moving Algorithms
+--------------------------
+
+Slicker code, less math!
+
+
+Polish Widgets
+--------------
+
+Taskbar Widget
+~~~~~~~~~~~~~~
+
+More elegant, etc.
+
+
+Clock Widget
+~~~~~~~~~~~~
+
+Speed up the drawing.
+
+
+Sketch Widget
+~~~~~~~~~~~~~
+
+No words.
