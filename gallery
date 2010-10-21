@@ -66,56 +66,56 @@
 <h1>Gallery</h1>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-overview.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-overview.png" alt="Overview of Melange." /></a>
+    <a href="/static/images/screenshots/prev1/cream-overview.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-overview.png" alt="Overview of Melange." /></a>
     <div class="title">
         Overview of Melange.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-windows.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-windows.png" alt="Windows overlapping the widgets." /></a>
+    <a href="/static/images/screenshots/prev1/cream-windows.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-windows.png" alt="Windows overlapping the widgets." /></a>
     <div class="title">
         Windows overlapping the widgets.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-windows-overlay.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-windows-overlay.png" alt="Melange Overlay overlapping the windows." /></a>
+    <a href="/static/images/screenshots/prev1/cream-windows-overlay.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-windows-overlay.png" alt="Melange Overlay overlapping the windows." /></a>
     <div class="title">
         Melange Overlay overlapping the windows.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-widgets.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-widgets.png" alt="Some other widgets." /></a>
+    <a href="/static/images/screenshots/prev1/cream-widgets.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-widgets.png" alt="Some other widgets." /></a>
     <div class="title">
         Some other widgets.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-identica.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-identica.png" alt="Identi.ca widget with sleek scroll handle." /></a>
+    <a href="/static/images/screenshots/prev1/cream-identica.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-identica.png" alt="Identi.ca widget with sleek scroll handle." /></a>
     <div class="title">
         Identi.ca widget with sleek scroll handle.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-add-profile.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-add-profile.png" alt="Adding a Config profile." /></a>
+    <a href="/static/images/screenshots/prev1/cream-add-profile.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-add-profile.png" alt="Adding a Config profile." /></a>
     <div class="title">
         Adding a Config profile.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-hotkey.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-hotkey.png" alt="Changing the hotkey for the overlay." /></a>
+    <a href="/static/images/screenshots/prev1/cream-hotkey.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-hotkey.png" alt="Changing the hotkey for the overlay." /></a>
     <div class="title">
         Changing the hotkey for the overlay.
     </div>
 </div>
 
 <div class="thumbnail">
-    <a href="/static-content/images/screenshots/prev1/cream-about.png" rel="lightbox[melange]"><img src="/static-content/images/screenshots/prev1/thumbnails/thumb-120x120-cream-about.png" alt="About dialogs." /></a>
+    <a href="/static/images/screenshots/prev1/cream-about.png" rel="lightbox[melange]"><img src="/static/images/screenshots/prev1/thumbnails/thumb-120x120-cream-about.png" alt="About dialogs." /></a>
     <div class="title">
         About dialogs.
     </div>
