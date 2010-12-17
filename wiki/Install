@@ -27,7 +27,7 @@ Running stuff
 -------------
 After joining the sandbox, navigate to ``/path/to/cream/src/modules/`` and start modules, e.g. for Melange::
 
-    cd src/modules/melange
+    cd src/modules/melange/src
     python melange.py
 
 

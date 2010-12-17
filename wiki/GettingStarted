@@ -15,39 +15,19 @@ To start Melange, just *cd* into the ``src/modules/melange`` directory and run `
 
 .. code-block:: bash
 
-  $ cd <YOUR_CREAM_FOLDER>/src/modules/melange
+  $ cd <YOUR_CREAM_FOLDER>/src/modules/melange/src
   $ python melange.py
 
-Adding widgets
-++++++++++++++
-
-Now, let's add some widgets. To do so, you have to start *Melange Control* which is in the ``src/modules/melange-control`` directory:
-
-.. code-block:: bash
-
-  $ cd <YOUR_CREAM_FOLDER>/src/modules/melange-control
-  $ python melange-control.py
-
-This will open a window listing all the widgets currently available. Just choose one of them and press the *Add*-button
-to add it to your desktop.
 
 Handling widgets
 ++++++++++++++++
 
 You can move around your widgets using a *middle click*. If you *right click* on a widget this will open a context menu with three different actions:
 
+- **Configure**: Opens the configuration dialog
 - **Reload**: Reloads the widget.
 - **Remove**: Removes the widget from your desktop.
 - **About**: Opens an about dialog with some information about the widget and its author(s).
-
-Overlay
-+++++++
-
-On the top right corner is a little *thingy* which is similar to the cashew of the Plasma desktop. If you click on it,
-an overlay is being placed above your opened windows and all widgets will appear on this overlay.
-
-If you *right click* on it, there is an option *Preferences* where you can change the hotkey for displaying the overlay (default: ``F12``).
-It is also possible to create different profiles you can choose from.
 
 .. _installing Cream from git: /wiki/InstallFromGit
 
